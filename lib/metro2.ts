@@ -49,4 +49,4 @@ export async function generateMetro2TextFromRentalLive(): Promise<string> {
   const trailer = '0426TRAILER'
 
   return [header, body, trailer].join('\n')
-}
+} 
