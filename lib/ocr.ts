@@ -1,0 +1,1 @@
+// Tesseract OCR helper here
