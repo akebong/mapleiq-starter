@@ -1,4 +1,4 @@
-import { generateMetro2TextFromUtilities } from '../../lib/metro2'
+import { generateMetro2TextFromUtilities } from '@lib/metro2'
 import { createClient } from '@supabase/supabase-js'
 import { NextApiRequest, NextApiResponse } from 'next'
 

@@ -1,4 +1,4 @@
-import { generateMetro2Text } from '../../lib/metro2'
+import { generateMetro2TextFromRentalLive } from '@lib/metro2'
 import { NextApiRequest, NextApiResponse } from 'next'
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
