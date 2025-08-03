@@ -1,3 +1,5 @@
+ts
+
 // lib/metro2.ts
 import { createClient } from '@supabase/supabase-js'
 
