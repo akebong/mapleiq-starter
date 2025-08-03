@@ -1,7 +1,7 @@
 console.log('Resolved CWD:', process.cwd())
 console.log('Resolved PATH test:', require('fs').existsSync(require('path').resolve(__dirname, '../../lib/metro2.ts')))
 
-import { generateMetro2TextFromRentalLive } from '../../../lib/metro2'
+import { generateMetro2TextFromRentalLive } from '@lib/metro2'
 import { createClient } from '@supabase/supabase-js'
 import { NextApiRequest, NextApiResponse } from 'next'
 

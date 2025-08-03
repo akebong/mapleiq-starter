@@ -15,10 +15,9 @@
     "jsx": "preserve",
     "plugins": [{ "name": "next" }],
     "strictNullChecks": true,
- 
     "baseUrl": ".",
     "paths": {
-      "@/*": ["*"]
+      "@lib/*": ["lib/*"]
     }
   },
   "include": [
